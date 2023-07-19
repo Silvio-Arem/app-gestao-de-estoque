@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1333f88b97c031103b38fbc71153afb5" extends="task" label="Ordens" max_length="40" name="x_813986_gde_ordens" type="collection">
+        <element label="Entrega" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Item" max_length="32" name="u_reference_item" reference="x_813986_gde_itens" type="reference"/>
+    </element>
+</database>
