@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_813986_gde_ordens</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 19:42:15</sys_created_on>
+        <sys_id>58433c8b97c031103b38fbc71153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_813986_gde_ordens</sys_name>
+        <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_security_acl_58433c8b97c031103b38fbc71153afd6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 19:42:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sys_security_acl_58433c8b97c031103b38fbc71153afd6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_813986_gde_ordens</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 19:42:15</sys_created_on>
+        <sys_id>58433c8b97c031103b38fbc71153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_813986_gde_ordens</sys_name>
+        <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_security_acl_58433c8b97c031103b38fbc71153afd6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 19:42:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>1441647016</payload_hash>
+        <record_name>x_813986_gde_ordens</record_name>
+        <reverted_from/>
+        <source>3ccf4b9f974431103b38fbc71153afc9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 01:44:43</sys_created_on>
+        <sys_id>3bcf4f9f974431103b38fbc71153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189761ee4dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 01:44:43</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f3cf4f9fe7443110396d46005cb914f3</update_guid>
+        <update_guid_history>f3cf4f9fe7443110396d46005cb914f3:0,444e8adb23403110904b27e9c07f0d3a:-1932469752,50433c8b7ac031100fa1de7b972b50d8:-1538839438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 02:05:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3279bef9f2624ec19d7b1a32bc28d501</sys_id>
+        <sys_metadata>58433c8b97c031103b38fbc71153afd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_813986_gde_ordens</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent display_value="">9b33f88b97c031103b38fbc71153afe9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sys_security_acl_58433c8b97c031103b38fbc71153afd6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_58433c8b97c031103b38fbc71153afd6">3bcf4f9f974431103b38fbc71153aff3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 02:05:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

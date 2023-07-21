@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_reference_item" table="x_813986_gde_ordens">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Item</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_reference_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_813986_gde_ordens</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_813986_gde_itens">x_813986_gde_itens</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 19:59:22</sys_created_on>
+        <sys_name>Item</sys_name>
+        <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_dictionary_x_813986_gde_ordens_u_reference_item</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 19:59:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sys_dictionary_x_813986_gde_ordens_u_reference_item</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_reference_item" table="x_813986_gde_ordens">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Item</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_reference_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_813986_gde_ordens</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_813986_gde_itens">x_813986_gde_itens</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 19:59:22</sys_created_on>
+        <sys_name>Item</sys_name>
+        <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_dictionary_x_813986_gde_ordens_u_reference_item</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 19:59:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>884116502</payload_hash>
+        <record_name>Task.Item</record_name>
+        <reverted_from/>
+        <source>3ccf4b9f974431103b38fbc71153afc9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 01:44:42</sys_created_on>
+        <sys_id>27cf4f9f974431103b38fbc71153af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189761ee0490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 01:44:42</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>efcf4f9f764431100eccda75b6565762</update_guid>
+        <update_guid_history>efcf4f9f764431100eccda75b6565762:0,5327b0cf33c0311047e5706ed633cede:460654940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 02:05:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>2980bf1bc8134b08927808f77bc2a971</sys_id>
+        <sys_metadata>8b27b0cf97c031103b38fbc71153afc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent display_value="">1333f88b97c031103b38fbc71153afb5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_813986_gde_ordens_u_reference_item</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_813986_gde_ordens_u_reference_item">27cf4f9f974431103b38fbc71153af63</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 02:05:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

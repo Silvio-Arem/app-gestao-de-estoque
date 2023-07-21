@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_813986_gde_ordens" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ordens - Default view" name="x_813986_gde_ordens" related_list="NULL" sys_domain="global" view="Default view">fee5384f97c031103b38fbc71153af80</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-19 19:53:52</sys_created_on>
+            <sys_id>bae5bc4f97c031103b38fbc71153afad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-19 19:53:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Ordens - Default view</calculated_name>
+            <filter/>
+            <name>x_813986_gde_ordens</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-19 19:53:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fee5384f97c031103b38fbc71153af80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ordens - Default view</sys_name>
+            <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+            <sys_update_name>sys_ui_related_x_813986_gde_ordens_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-19 19:53:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sys_ui_related_x_813986_gde_ordens_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_813986_gde_ordens" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ordens - Default view" name="x_813986_gde_ordens" related_list="NULL" sys_domain="global" view="Default view">fee5384f97c031103b38fbc71153af80</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-19 19:53:52</sys_created_on>
+            <sys_id>bae5bc4f97c031103b38fbc71153afad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-19 19:53:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Ordens - Default view</calculated_name>
+            <filter/>
+            <name>x_813986_gde_ordens</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-19 19:53:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fee5384f97c031103b38fbc71153af80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ordens - Default view</sys_name>
+            <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+            <sys_update_name>sys_ui_related_x_813986_gde_ordens_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-19 19:53:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>]]></payload>
+        <payload_hash>-947175991</payload_hash>
+        <record_name>Task</record_name>
+        <reverted_from/>
+        <source>3ccf4b9f974431103b38fbc71153afc9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 01:44:44</sys_created_on>
+        <sys_id>08df8f9f974431103b38fbc71153af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189761ee94d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 01:44:44</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>c0df8f9f73443110baf736f12224e654</update_guid>
+        <update_guid_history>c0df8f9f73443110baf736f12224e654:0,b2e5bc4ffbc03110d28dd3a21172d8af:-238506239</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 02:05:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>052b68d44109462ba99a8495c8f9e7e1</sys_id>
+        <sys_metadata>fee5384f97c031103b38fbc71153af80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ordens - Default view</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent display_value="">1333f88b97c031103b38fbc71153afb5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_813986_gde_ordens_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_813986_gde_ordens_null">08df8f9f974431103b38fbc71153af54</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 02:05:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

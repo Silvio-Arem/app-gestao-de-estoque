@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Gestão de Estoque Limpeza">b27bb8c3970431103b38fbc71153afbf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Novo pedido</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_813986_gde_ordens</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 20:25:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b0db047970431103b38fbc71153af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novo pedido</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_app_module_6b0db047970431103b38fbc71153af30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 20:25:44</sys_updated_on>
+        <timeline_page/>
+        <title>Novo pedido</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sys_app_module_6b0db047970431103b38fbc71153af30</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Gestão de Estoque Limpeza">b27bb8c3970431103b38fbc71153afbf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Novo pedido</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_813986_gde_ordens</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 20:25:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b0db047970431103b38fbc71153af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novo pedido</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_app_module_6b0db047970431103b38fbc71153af30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 20:25:44</sys_updated_on>
+        <timeline_page/>
+        <title>Novo pedido</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-1490279108</payload_hash>
+        <record_name>Novo pedido</record_name>
+        <reverted_from/>
+        <source>3ccf4b9f974431103b38fbc71153afc9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 01:44:42</sys_created_on>
+        <sys_id>abcf4f9f974431103b38fbc71153af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189761ee0c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 01:44:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>67cf4f9f4d443110316f931a9097e37b</update_guid>
+        <update_guid_history>67cf4f9f4d443110316f931a9097e37b:0,9925ca533e4031100a14d157714571a6:1123210730,613d7807cd0431109b14c200631ad729:-380746699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Novo pedido">c2a49317978431103b38fbc71153aff3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 02:05:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>12a05e85421e48148a8e49bdc6facf29</sys_id>
+        <sys_metadata>6b0db047970431103b38fbc71153af30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novo pedido</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sys_app_module_6b0db047970431103b38fbc71153af30</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6b0db047970431103b38fbc71153af30">abcf4f9f974431103b38fbc71153af7b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 02:05:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

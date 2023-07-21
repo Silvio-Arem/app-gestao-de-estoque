@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>1</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>state</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_813986_gde_ordens</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 19:57:40</sys_created_on>
+        <sys_id>1ec6f88f97c031103b38fbc71153afac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_dictionary_override_1ec6f88f97c031103b38fbc71153afac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 19:59:55</sys_updated_on>
+    </sys_dictionary_override>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sys_dictionary_override_1ec6f88f97c031103b38fbc71153afac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>1</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>state</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_813986_gde_ordens</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-19 19:57:40</sys_created_on>
+        <sys_id>1ec6f88f97c031103b38fbc71153afac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Gestão de Estoque" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_dictionary_override_1ec6f88f97c031103b38fbc71153afac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 19:59:55</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>]]></payload>
+        <payload_hash>-1833336482</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>3ccf4b9f974431103b38fbc71153afc9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 01:44:43</sys_created_on>
+        <sys_id>bbcf4f9f974431103b38fbc71153afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189761ee31e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 01:44:43</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>77cf4f9f864431103be31244271aa6cd</update_guid>
+        <update_guid_history>77cf4f9f864431103be31244271aa6cd:0,d34734cf36c03110f77fc60d763966b2:221783344,96c6f88f6dc0311035571d848ff466da:-1586229613,d2c6f88f9dc03110c41faff4ee24d5b0:-477109883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-21 02:05:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>41e7e4181ffe447ca721d4c191dbeb10</sys_id>
+        <sys_metadata>1ec6f88f97c031103b38fbc71153afac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent display_value="">0b27b0cf97c031103b38fbc71153af7e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_1ec6f88f97c031103b38fbc71153afac</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_1ec6f88f97c031103b38fbc71153afac">bbcf4f9f974431103b38fbc71153afcd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-21 02:05:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
