@@ -40,19 +40,19 @@ $text-muted:#666666;
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu/>
+        <sp_rectangle_menu display_value="Header Portal GDL">fcf64444971431103b38fbc71153af08</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 14:34:30</sys_created_on>
         <sys_id>81378f37970031103b38fbc71153af71</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_name>Gestão de Produtos de Limpeza</sys_name>
         <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name>sp_portal_81378f37970031103b38fbc71153af71</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 17:08:23</sys_updated_on>
+        <sys_updated_on>2023-07-22 19:05:00</sys_updated_on>
         <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>Gestão de Produtos de Limpeza</title>
         <ts_index_group/>
