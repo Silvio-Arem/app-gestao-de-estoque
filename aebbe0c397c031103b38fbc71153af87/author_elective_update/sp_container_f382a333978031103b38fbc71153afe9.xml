@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>padding-top-lg</class_name>
+        <container_class_name/>
+        <name>GDL Home Page - Container 4</name>
+        <order>4</order>
+        <sp_page display_value="gdl_index">2b82ebff974031103b38fbc71153afd4</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 16:23:35</sys_created_on>
+        <sys_id>f382a333978031103b38fbc71153afe9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GDL Home Page - Container 4</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sp_container_f382a333978031103b38fbc71153afe9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:28:50</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sp_container_f382a333978031103b38fbc71153afe9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>padding-top-lg</class_name><container_class_name/><name>GDL Home Page - Container 4</name><order>4</order><sp_page display_value="gdl_index">2b82ebff974031103b38fbc71153afd4</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-22 16:23:35</sys_created_on><sys_id>f382a333978031103b38fbc71153afe9</sys_id><sys_mod_count>3</sys_mod_count><sys_name>GDL Home Page - Container 4</sys_name><sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package><sys_policy/><sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope><sys_update_name>sp_container_f382a333978031103b38fbc71153afe9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-22 17:28:50</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1601864070</payload_hash>
+        <record_name>GDL Home Page - Container 4</record_name>
+        <reverted_from/>
+        <source>23c1340b97c031103b38fbc71153af00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 17:28:50</sys_created_on>
+        <sys_id>177177ff978031103b38fbc71153af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1897ea59c850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:28:50</sys_updated_on>
+        <type>Container</type>
+        <update_guid>db7177ff7c803110bb9013bf5913754f</update_guid>
+        <update_guid_history>db7177ff7c803110bb9013bf5913754f:1601864070,9a71f7ff368031104da872d7298c1fec:-1328164793,76c22b33f58031104e5199b8d51a8f2e:-884648862,b782a3339d803110ef859d000d7a97ea:-465355268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GDL Home Page - Container 4">05b17fff978031103b38fbc71153af3c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 17:29:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1fd13b54a1424598a79c04f8adc1a944</sys_id>
+        <sys_metadata>f382a333978031103b38fbc71153afe9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GDL Home Page - Container 4</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sp_container_f382a333978031103b38fbc71153afe9</sys_update_name>
+        <sys_update_version display_value="sp_container_f382a333978031103b38fbc71153afe9">177177ff978031103b38fbc71153af50</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:29:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

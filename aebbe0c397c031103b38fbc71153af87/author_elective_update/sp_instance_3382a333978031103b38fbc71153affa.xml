@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">fb82a333978031103b38fbc71153aff7</sp_column>
+        <sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 16:23:36</sys_created_on>
+        <sys_id>3382a333978031103b38fbc71153affa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sp_instance_3382a333978031103b38fbc71153affa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:28:57</sys_updated_on>
+        <title>My Surveys</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3382a333978031103b38fbc71153affa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sp_instance_3382a333978031103b38fbc71153affa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">fb82a333978031103b38fbc71153aff7</sp_column><sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-22 16:23:36</sys_created_on><sys_id>3382a333978031103b38fbc71153affa</sys_id><sys_mod_count>3</sys_mod_count><sys_name>My Surveys</sys_name><sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package><sys_policy/><sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope><sys_update_name>sp_instance_3382a333978031103b38fbc71153affa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-22 17:28:57</sys_updated_on><title>My Surveys</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=3382a333978031103b38fbc71153affa"/></record_update>]]></payload>
+        <payload_hash>1520936636</payload_hash>
+        <record_name>My Surveys</record_name>
+        <reverted_from/>
+        <source>23c1340b97c031103b38fbc71153af00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 17:28:57</sys_created_on>
+        <sys_id>19817bff978031103b38fbc71153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1897ea5ba2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:28:57</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>cd817bff72803110c376eb284fca524c</update_guid>
+        <update_guid_history>cd817bff72803110c376eb284fca524c:1520936636,5871f7ffe18031101cab4e409fd1ca00:2056218139,7051f3ff90803110cd601693bc5712d6:1520936636,b782a3336c8031102957b64fedb7a4fb:2056218139</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Surveys">c1b17fff978031103b38fbc71153af29</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 17:29:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>37a677eeabed46a48d17ee1644b03d81</sys_id>
+        <sys_metadata>3382a333978031103b38fbc71153affa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sp_instance_3382a333978031103b38fbc71153affa</sys_update_name>
+        <sys_update_version display_value="sp_instance_3382a333978031103b38fbc71153affa">19817bff978031103b38fbc71153af4d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:29:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
