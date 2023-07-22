@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary:#6ABECF;
+$body-bg:#ffffff;
+$state-success-text:#1e4335;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#83bfff;
+$text-color:#2e2e2e;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#fff;
+$panel-bg:#fff;
+$brand-success:#6eaa5e;
+$navbar-inverse-bg:#136fd3;
+$brand-warning:#DFD139;
+$brand-danger:#C83C36;
+$sp-tagline-color:#ffffff;
+$navbar-inverse-link-color:#fff;
+$brand-info:#6ABECF;
+$link-color:#6ABECF;
+$sp-logo-margin-x:1.5rem;
+$btn-default-bg:#fff;
+$text-muted:#666666;
+</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="gdl_index">2b82ebff974031103b38fbc71153afd4</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 14:34:30</sys_created_on>
+        <sys_id>81378f37970031103b38fbc71153af71</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>Gestão de Produtos de Limpeza</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sp_portal_81378f37970031103b38fbc71153af71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 17:02:35</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <title>Gestão de Produtos de Limpeza</title>
+        <ts_index_group/>
+        <url_suffix>gdl</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=81378f37970031103b38fbc71153af71"/>
+</record_update>
