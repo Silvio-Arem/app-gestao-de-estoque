@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_realizar_pedido</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 19:54:51</sys_created_on>
+        <sys_id>9ee21cc4971431103b38fbc71153af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Realizar Pedido View</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sys_ui_view_9ee21cc4971431103b38fbc71153af0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 19:54:51</sys_updated_on>
+        <title>Realizar Pedido View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
