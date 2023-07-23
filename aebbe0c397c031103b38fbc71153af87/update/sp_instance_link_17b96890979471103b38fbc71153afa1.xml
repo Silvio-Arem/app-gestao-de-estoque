@@ -2,9 +2,9 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>primary</color>
         <css/>
-        <glyph>book</glyph>
+        <glyph>th-list</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
@@ -13,26 +13,26 @@
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description>Conheça essas 5 dicas excelentes!</short_description>
+        <short_description>Clique para visualisar a lista de pedidos</short_description>
         <size>md</size>
-        <sp_column display_value="2">3e7f2648979c31103b38fbc71153afbc</sp_column>
-        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_column display_value="2">b1d3681c975471103b38fbc71153af54</sp_column>
+        <sp_page/>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-22 16:23:35</sys_created_on>
-        <sys_id>7b82a333978031103b38fbc71153afd5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Leitura Recomendada</sys_name>
+        <sys_created_on>2023-07-23 16:13:04</sys_created_on>
+        <sys_id>17b96890979471103b38fbc71153afa1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Lista de Pedidos</sys_name>
         <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
-        <sys_update_name>sp_instance_link_7b82a333978031103b38fbc71153afd5</sys_update_name>
+        <sys_update_name>sp_instance_link_17b96890979471103b38fbc71153afa1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-23 07:19:23</sys_updated_on>
-        <title>Leitura Recomendada</title>
+        <sys_updated_on>2023-07-23 16:15:05</sys_updated_on>
+        <title>Lista de Pedidos</title>
         <type>url</type>
-        <url>https://www.distribuidoraeficaz.com.br/blog/boas-praticas-gestao-de-estoque/</url>
+        <url>https://dev127005.service-now.com/gdl?sys_id=45aa3f5b970831103b38fbc71153af10&amp;view=sp&amp;id=list&amp;table=x_813986_gde_ordens</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
 		"value": "Circle Icon",
@@ -40,5 +40,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=7b82a333978031103b38fbc71153afd5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=17b96890979471103b38fbc71153afa1"/>
 </record_update>

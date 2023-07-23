@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Conheça essas 5 dicas excelentes!</short_description>
+        <size>md</size>
+        <sp_column display_value="3">b1d3681c975471103b38fbc71153af56</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 16:23:35</sys_created_on>
+        <sys_id>7b82a333978031103b38fbc71153afd5</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Leitura Recomendada</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_update_name>sp_instance_link_7b82a333978031103b38fbc71153afd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-23 16:13:13</sys_updated_on>
+        <title>Leitura Recomendada</title>
+        <type>url</type>
+        <url>https://www.distribuidoraeficaz.com.br/blog/boas-praticas-gestao-de-estoque/</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=7b82a333978031103b38fbc71153afd5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</application>
+        <file_path/>
+        <instance_id>de1fdb3adb8f819052cec597059619cb</instance_id>
+        <instance_name>dev127005</instance_name>
+        <name>sp_instance_link_7b82a333978031103b38fbc71153afd5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Conheça essas 5 dicas excelentes!&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;b1d3681c975471103b38fbc71153af56&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-22 16:23:35&lt;/sys_created_on&gt;&lt;sys_id&gt;7b82a333978031103b38fbc71153afd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Leitura Recomendada&lt;/sys_name&gt;&lt;sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde"&gt;aebbe0c397c031103b38fbc71153af87&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestão de Estoque de Limpeza"&gt;aebbe0c397c031103b38fbc71153af87&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_7b82a333978031103b38fbc71153afd5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-23 16:13:13&lt;/sys_updated_on&gt;&lt;title&gt;Leitura Recomendada&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://www.distribuidoraeficaz.com.br/blog/boas-praticas-gestao-de-estoque/&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7b82a333978031103b38fbc71153afd5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1220054229</payload_hash>
+        <record_name>Leitura Recomendada</record_name>
+        <reverted_from/>
+        <source>23c1340b97c031103b38fbc71153af00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-23 16:13:13</sys_created_on>
+        <sys_id>edc9ec90979471103b38fbc71153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1898386c03b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-23 16:13:13</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>a5c9ec908b94711036ecf7eebc4ad1ad</update_guid>
+        <update_guid_history>a5c9ec908b94711036ecf7eebc4ad1ad:-1220054229,25c9e490ad9471106cbb56c2f570758b:-370565911,8dc9ec90f09471108356f8a672c22a7c:-1220054229,d8c9ec90d694711015a9a67e7aeed431:-370565911,b2b82c50829471106c8bab67296b089b:-2042524248,11b82c503a947110dc8203727876ce77:451904108,50e32c1c305471109349290a688b356f:-1220054229,359fa248fb9c31104191686087ed5d44:591112752,709fa6481f9c3110789d8ee045db20c2:258793082,5269e280b89c3110f952161e18cd2e43:-2049817953,0c196a80dc9c311011b7b6ab04e8fa31:1747290374,28c82680129c31104b734b217267c27e:-115339169,5991bbff5d80311056ec8db154ceba9f:422998487,4d817bff5e803110903d7b654138fc44:911368647,1071b7ff74803110e99b4ef0bb82fcfc:-2106003651,af517fbf398031106677721a7177b410:-64396047,a451f3ff87803110258b24b23d7581a6:1075586252,a531bbbf798031101fb9420b58c7957c:-1817020243,56e037fbd18031109daba36e83981b52:1083815613,d1b07bbf7f8031103c42e3c3c4ffbe49:-1435520293,bf82a333bf80311053f66843fd43dfd6:-1296497326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Leitura Recomendada">e8d96890979471103b38fbc71153af83</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-23 16:13:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>1bfa68a149df4872844f1e9ac9aa49d1</sys_id>
+        <sys_metadata>7b82a333978031103b38fbc71153afd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leitura Recomendada</sys_name>
+        <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_scope_delete display_value="">0b87a621825a4763960f270bb1343f69</sys_scope_delete>
+        <sys_update_name>sp_instance_link_7b82a333978031103b38fbc71153afd5</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_7b82a333978031103b38fbc71153afd5">edc9ec90979471103b38fbc71153afad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-23 16:13:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
