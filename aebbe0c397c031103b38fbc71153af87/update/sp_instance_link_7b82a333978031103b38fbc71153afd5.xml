@@ -15,21 +15,21 @@
         <sc_category/>
         <short_description>Conheça essas 5 dicas excelentes!</short_description>
         <size>md</size>
-        <sp_column display_value="1">73b82280979c31103b38fbc71153af6f</sp_column>
+        <sp_column display_value="2">3e7f2648979c31103b38fbc71153afbc</sp_column>
         <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 16:23:35</sys_created_on>
         <sys_id>7b82a333978031103b38fbc71153afd5</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Leitura Recomendada</sys_name>
         <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name>sp_instance_link_7b82a333978031103b38fbc71153afd5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-23 06:52:23</sys_updated_on>
+        <sys_updated_on>2023-07-23 07:19:23</sys_updated_on>
         <title>Leitura Recomendada</title>
         <type>url</type>
         <url>https://www.distribuidoraeficaz.com.br/blog/boas-praticas-gestao-de-estoque/</url>
