@@ -10,7 +10,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Fluxo que automatiza o atendimento de uma ordem (aprovação, entrega e deduçãodo estoque)</description>
         <internal_name>fluxo_de_etapas_da_ordem</internal_name>
-        <label_cache>[{"name":"18827232-79b1-46c4-bbb7-b32db8d9715a.Record","label":"9 - Look Up Record➛Itens Record","reference":"x_813986_gde_itens","reference_display":"Itens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_reference_1.item","label":"Trigger - Record Created➛Ordens Record➛Produto➛Item","reference":"","reference_display":"Item","type":"string","base_type":"string","parent_table_name":"x_813986_gde_itens","column_name":"item"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.u_boolean_2","label":"1 - Update Record➛Ordens Record➛Entrega","reference":"","reference_display":"Entrega","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"u_boolean_2"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.active","label":"1 - Update Record➛Ordens Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"active"},{"name":"cf7ab446-372d-4ff7-8569-cece38605775.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.00aa3957970031103b38fbc71153aff4}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assigned_to","label":"1 - Update Record➛Ordens Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assigned_to"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assignment_group","label":"1 - Update Record➛Ordens Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assignment_group"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.approval","label":"1 - Update Record➛Ordens Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_813986_gde_ordens","column_name":"approval","choices":[{"used":false,"label":"Not Yet Requested","reference":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task"}},{"used":false,"label":"Requested","reference":false,"image":"","rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task"}},{"used":false,"label":"Approved","reference":false,"image":"","rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task"}},{"used":false,"label":"Rejected","reference":false,"image":"","rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record","label":"1 - Update Record➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"18827232-79b1-46c4-bbb7-b32db8d9715a.Record","label":"10 - Look Up Record➛Itens Record","reference":"x_813986_gde_itens","reference_display":"Itens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_reference_1.item","label":"Trigger - Record Created➛Ordens Record➛Produto➛Item","reference":"","reference_display":"Item","type":"string","base_type":"string","parent_table_name":"x_813986_gde_itens","column_name":"item"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.u_boolean_2","label":"1 - Update Record➛Ordens Record➛Entrega","reference":"","reference_display":"Entrega","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"u_boolean_2"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.active","label":"1 - Update Record➛Ordens Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"active"},{"name":"cf7ab446-372d-4ff7-8569-cece38605775.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.00aa3957970031103b38fbc71153aff4}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assigned_to","label":"1 - Update Record➛Ordens Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assigned_to"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assignment_group","label":"1 - Update Record➛Ordens Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assignment_group"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.approval","label":"1 - Update Record➛Ordens Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_813986_gde_ordens","column_name":"approval","choices":[{"label":"Not Yet Requested","used":false,"image":"","reference":false,"rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","used":false,"image":"","reference":false,"rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","used":false,"image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","used":false,"image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record","label":"1 - Update Record➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>c06f8caf974831103b38fbc71153af0e</master_snapshot>
         <name>Fluxo de etapas da ordem</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1509842b974831103b38fbc71153af2c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Fluxo de etapas da ordem</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gestão de Estoque de Limpeza" source="x_813986_gde">aebbe0c397c031103b38fbc71153af87</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name>sys_hub_flow_1509842b974831103b38fbc71153af2c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:56</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1509842b974831103b38fbc71153af2c"/>
@@ -74,14 +74,14 @@
         <identifier>1509842b974831103b38fbc71153af2c</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-21 07:30:55</sys_created_on>
-        <sys_id>d30f146397c831103b38fbc71153af95</sys_id>
+        <sys_created_on>2023-07-26 14:31:43</sys_created_on>
+        <sys_id>c45f2b41979031103b38fbc71153af02</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:55</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <trigger display_value="">d86f8caf974831103b38fbc71153af8f</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1509842b974831103b38fbc71153af2c^sys_idNOT INd30f146397c831103b38fbc71153af95"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1509842b974831103b38fbc71153af2c^sys_idNOT INc45f2b41979031103b38fbc71153af02"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=1509842b974831103b38fbc71153af2c^sys_idNOT IN502fc4af974831103b38fbc71153afc2"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>Um novo pedido é gerado.</comment>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>502fc4af974831103b38fbc71153afc2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:56</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -208,14 +208,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:21</sys_created_on>
         <sys_id>0c2fc4af974831103b38fbc71153afb6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:55</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -291,14 +291,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>582fc4af974831103b38fbc71153afbd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:55</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -322,16 +322,16 @@
         <comment>Pesquisa na tabela "Itens" e localiza o produto solicitado (registro da trigger) na lista.</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">1509842b974831103b38fbc71153af2c</flow>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 07:25:56</sys_created_on>
         <sys_id>06ed58ef978831103b38fbc71153affe</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>18827232-79b1-46c4-bbb7-b32db8d9715a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=06ed58ef978831103b38fbc71153affe"/>
@@ -390,10 +390,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>542fc4af974831103b38fbc71153afc8</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>53356585-e91f-4d1f-9565-6ed25e1184e6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=542fc4af974831103b38fbc71153afc8"/>
@@ -472,16 +472,16 @@
         <comment>Aguarde até que  campo "Entrega" seja "True".</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">1509842b974831103b38fbc71153af2c</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:55:00</sys_created_on>
         <sys_id>85d6d0e7978831103b38fbc71153af4b</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>44024dfb-4484-44b4-af05-e7f2c0e1b93a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85d6d0e7978831103b38fbc71153af4b"/>
@@ -566,10 +566,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>942fc4af974831103b38fbc71153afe5</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>4915a301-9979-42ee-ae40-289f8faa037a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=942fc4af974831103b38fbc71153afe5"/>
@@ -654,10 +654,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>982fc4af974831103b38fbc71153afd0</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>cf7ab446-372d-4ff7-8569-cece38605775</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=982fc4af974831103b38fbc71153afd0"/>
@@ -800,16 +800,16 @@
         <comment>Atualiza o campo "State" para "Concluido"</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">1509842b974831103b38fbc71153af2c</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 07:04:13</sys_created_on>
         <sys_id>c0f8dc6b978831103b38fbc71153afa4</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>6051cda2-de97-44f6-a2d8-9174042b719f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c0f8dc6b978831103b38fbc71153afa4"/>
@@ -888,16 +888,16 @@
         <comment>Subtrai "-1" do campo "Quantidade"</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">1509842b974831103b38fbc71153af2c</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 07:25:56</sys_created_on>
         <sys_id>c6ed98ef978831103b38fbc71153af05</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>5bf45601-75d5-497d-a145-9b60e0444799</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c6ed98ef978831103b38fbc71153af05"/>
@@ -995,10 +995,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>dc2fc4af974831103b38fbc71153afdc</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:31:53</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:32:33</sys_updated_on>
         <ui_id>b3805690-b1d0-495e-84d8-8ab72dcd7441</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dc2fc4af974831103b38fbc71153afdc"/>
@@ -1070,7 +1070,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=dc2fc4af974831103b38fbc71153afdc"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc2fc4af974831103b38fbc71153afdc"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1509842b974831103b38fbc71153af2c"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=1509842b974831103b38fbc71153af2c^sys_idNOT IN542fc4af974831103b38fbc71153afdf,dc2fc4af974831103b38fbc71153afd4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1509842b974831103b38fbc71153af2c^sys_idNOT IN542fc4af974831103b38fbc71153afdf,65dd6fcd975031103b38fbc71153afb1,dc2fc4af974831103b38fbc71153afd4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">dc2fc4af974831103b38fbc71153afde</block>
         <comment/>
@@ -1092,10 +1092,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>542fc4af974831103b38fbc71153afdf</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:56</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <ui_id>3653dd61-b33d-4ae5-b161-0d73e1621ef1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1103,6 +1103,38 @@
     <sys_variable_value action="delete_multiple" query="document_key=542fc4af974831103b38fbc71153afdf"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=542fc4af974831103b38fbc71153afdf"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=542fc4af974831103b38fbc71153afdf"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a9dd6fcd975031103b38fbc71153afb0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fluxo de etapas da ordem">1509842b974831103b38fbc71153af2c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3653dd61-b33d-4ae5-b161-0d73e1621ef1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 14:25:16</sys_created_on>
+        <sys_id>65dd6fcd975031103b38fbc71153afb1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
+        <ui_id>d8c340f5-c295-431e-bc11-1cb3be931b90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=65dd6fcd975031103b38fbc71153afb1"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=65dd6fcd975031103b38fbc71153afb1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=65dd6fcd975031103b38fbc71153afb1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">542fc4af974831103b38fbc71153afd4</block>
         <comment>Se aprovado.</comment>
@@ -1125,10 +1157,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:21:22</sys_created_on>
         <sys_id>dc2fc4af974831103b38fbc71153afd4</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:56</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <ui_id>37a887e0-5fb1-4b63-8244-20f90520e671</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1232,17 +1264,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d86f8caf974831103b38fbc71153af91","name":"plan","plan_signature":null}}</plan>
         <plan_id>1509842b974831103b38fbc71153af2c</plan_id>
-        <snapshot>514f986397c831103b38fbc71153afde</snapshot>
+        <snapshot>c48f2f41979031103b38fbc71153aff5</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d86f8caf974831103b38fbc71153af91</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:55</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <trigger display_value="">d86f8caf974831103b38fbc71153af8f</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1509842b974831103b38fbc71153af2c"/>
@@ -1257,7 +1289,7 @@
         <copied_from_name/>
         <description>Fluxo que automatiza o atendimento de uma ordem (aprovação, entrega e deduçãodo estoque)</description>
         <internal_name>fluxo_de_etapas_da_ordem</internal_name>
-        <label_cache>[{"name":"18827232-79b1-46c4-bbb7-b32db8d9715a.Record","label":"9 - Look Up Record➛Itens Record","reference":"x_813986_gde_itens","reference_display":"Itens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_reference_1.item","label":"Trigger - Record Created➛Ordens Record➛Produto➛Item","reference":"","reference_display":"Item","type":"string","base_type":"string","parent_table_name":"x_813986_gde_itens","column_name":"item"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.u_boolean_2","label":"1 - Update Record➛Ordens Record➛Entrega","reference":"","reference_display":"Entrega","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"u_boolean_2"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.active","label":"1 - Update Record➛Ordens Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"active"},{"name":"cf7ab446-372d-4ff7-8569-cece38605775.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.00aa3957970031103b38fbc71153aff4}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assigned_to","label":"1 - Update Record➛Ordens Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assigned_to"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assignment_group","label":"1 - Update Record➛Ordens Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assignment_group"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.approval","label":"1 - Update Record➛Ordens Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_813986_gde_ordens","column_name":"approval","choices":[{"used":false,"label":"Not Yet Requested","reference":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task"}},{"used":false,"label":"Requested","reference":false,"image":"","rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task"}},{"used":false,"label":"Approved","reference":false,"image":"","rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task"}},{"used":false,"label":"Rejected","reference":false,"image":"","rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record","label":"1 - Update Record➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"18827232-79b1-46c4-bbb7-b32db8d9715a.Record","label":"10 - Look Up Record➛Itens Record","reference":"x_813986_gde_itens","reference_display":"Itens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_reference_1.item","label":"Trigger - Record Created➛Ordens Record➛Produto➛Item","reference":"","reference_display":"Item","type":"string","base_type":"string","parent_table_name":"x_813986_gde_itens","column_name":"item"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.u_boolean_2","label":"1 - Update Record➛Ordens Record➛Entrega","reference":"","reference_display":"Entrega","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"u_boolean_2"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.active","label":"1 - Update Record➛Ordens Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_813986_gde_ordens","column_name":"active"},{"name":"cf7ab446-372d-4ff7-8569-cece38605775.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.00aa3957970031103b38fbc71153aff4}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assigned_to","label":"1 - Update Record➛Ordens Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assigned_to"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.assignment_group","label":"1 - Update Record➛Ordens Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_813986_gde_ordens","column_name":"assignment_group"},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record.approval","label":"1 - Update Record➛Ordens Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_813986_gde_ordens","column_name":"approval","choices":[{"label":"Not Yet Requested","used":false,"image":"","reference":false,"rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task"}},{"label":"Requested","used":false,"image":"","reference":false,"rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task"}},{"label":"Approved","used":false,"image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task"}},{"label":"Rejected","used":false,"image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task"}}]},{"name":"53356585-e91f-4d1f-9565-6ed25e1184e6.record","label":"1 - Update Record➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ordens Record","reference":"x_813986_gde_ordens","reference_display":"Ordens","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
         <name>Fluxo de etapas da ordem</name>
         <natlang/>
@@ -1274,7 +1306,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c06f8caf974831103b38fbc71153af0e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1282,7 +1314,7 @@
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=c06f8caf974831103b38fbc71153af0e"/>
@@ -1297,10 +1329,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>506f8caf974831103b38fbc71153af6e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:55</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:43</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1413,14 +1445,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:26</sys_created_on>
         <sys_id>886f8caf974831103b38fbc71153af10</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1496,14 +1528,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>8c6f8caf974831103b38fbc71153af30</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1533,10 +1565,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>0c6f8caf974831103b38fbc71153af5e</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>cf7ab446-372d-4ff7-8569-cece38605775</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0c6f8caf974831103b38fbc71153af5e"/>
@@ -1679,16 +1711,16 @@
         <comment>Atualiza o campo "State" para "Concluido"</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">c06f8caf974831103b38fbc71153af0e</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 07:04:25</sys_created_on>
         <sys_id>36f850ab978831103b38fbc71153affc</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:41</sys_updated_on>
         <ui_id>6051cda2-de97-44f6-a2d8-9174042b719f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=36f850ab978831103b38fbc71153affc"/>
@@ -1773,10 +1805,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>406f8caf974831103b38fbc71153af66</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>b3805690-b1d0-495e-84d8-8ab72dcd7441</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=406f8caf974831103b38fbc71153af66"/>
@@ -1861,10 +1893,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>406f8caf974831103b38fbc71153af6c</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>4915a301-9979-42ee-ae40-289f8faa037a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=406f8caf974831103b38fbc71153af6c"/>
@@ -1943,16 +1975,16 @@
         <comment>Pesquisa na tabela "Itens" e localiza o produto solicitado (registro da trigger) na lista.</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">c06f8caf974831103b38fbc71153af0e</flow>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 07:26:12</sys_created_on>
         <sys_id>4efd5cef978831103b38fbc71153af38</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:41</sys_updated_on>
         <ui_id>18827232-79b1-46c4-bbb7-b32db8d9715a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4efd5cef978831103b38fbc71153af38"/>
@@ -2011,10 +2043,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>cc6f8caf974831103b38fbc71153af48</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>53356585-e91f-4d1f-9565-6ed25e1184e6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cc6f8caf974831103b38fbc71153af48"/>
@@ -2093,16 +2125,16 @@
         <comment>Subtrai "-1" do campo "Quantidade"</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">c06f8caf974831103b38fbc71153af0e</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 07:26:12</sys_created_on>
         <sys_id>cefd5cef978831103b38fbc71153af3f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:41</sys_updated_on>
         <ui_id>5bf45601-75d5-497d-a145-9b60e0444799</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cefd5cef978831103b38fbc71153af3f"/>
@@ -2194,16 +2226,16 @@
         <comment>Aguarde até que  campo "Entrega" seja "True".</comment>
         <display_text/>
         <flow display_value="Fluxo de etapas da ordem">c06f8caf974831103b38fbc71153af0e</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:59:18</sys_created_on>
         <sys_id>ffc7d42b978831103b38fbc71153af52</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>44024dfb-4484-44b4-af05-e7f2c0e1b93a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ffc7d42b978831103b38fbc71153af52"/>
@@ -2275,7 +2307,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=ffc7d42b978831103b38fbc71153af52"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ffc7d42b978831103b38fbc71153af52"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c06f8caf974831103b38fbc71153af0e"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=c06f8caf974831103b38fbc71153af0e^sys_idNOT IN846f8caf974831103b38fbc71153af3c,886f8caf974831103b38fbc71153af40"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c06f8caf974831103b38fbc71153af0e^sys_idNOT IN846f8caf974831103b38fbc71153af3c,886f8caf974831103b38fbc71153af40,9f4fe741979031103b38fbc71153af15"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">542fc4af974831103b38fbc71153afd4</block>
         <comment>Se aprovado.</comment>
@@ -2298,10 +2330,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>846f8caf974831103b38fbc71153af3c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>37a887e0-5fb1-4b63-8244-20f90520e671</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2369,10 +2401,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 06:22:27</sys_created_on>
         <sys_id>886f8caf974831103b38fbc71153af40</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 07:30:54</sys_updated_on>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
         <ui_id>3653dd61-b33d-4ae5-b161-0d73e1621ef1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2380,6 +2412,38 @@
     <sys_variable_value action="delete_multiple" query="document_key=886f8caf974831103b38fbc71153af40"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=886f8caf974831103b38fbc71153af40"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=886f8caf974831103b38fbc71153af40"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a9dd6fcd975031103b38fbc71153afb0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fluxo de etapas da ordem">c06f8caf974831103b38fbc71153af0e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3653dd61-b33d-4ae5-b161-0d73e1621ef1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 14:31:40</sys_created_on>
+        <sys_id>9f4fe741979031103b38fbc71153af15</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Gestão de Estoque de Limpeza">aebbe0c397c031103b38fbc71153af87</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 14:31:40</sys_updated_on>
+        <ui_id>d8c340f5-c295-431e-bc11-1cb3be931b90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9f4fe741979031103b38fbc71153af15"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9f4fe741979031103b38fbc71153af15"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9f4fe741979031103b38fbc71153af15"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c06f8caf974831103b38fbc71153af0e"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=c06f8caf974831103b38fbc71153af0e"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c06f8caf974831103b38fbc71153af0e^sys_idNOT IN086f8caf974831103b38fbc71153af35,446f8caf974831103b38fbc71153af2d"/>
